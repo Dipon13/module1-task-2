@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../IMG/surveybackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: rgb(238, 247, 231);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(238, 247, 231);
+}
+.container{
+    border-left: 2px solid rgb(38, 61, 38);
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 160%;
+    padding-bottom: 5%;
+    background-color: rgba(43, 77, 66, 0.212);
+}
+.container p{
+    font-weight: bold;
+    color: rgb(32, 44, 25);
+    
+}
+.container h1{
+    padding: 0.5rem;
+}
+.heading{
+    width: 75%;
+    padding-left: 2%;
+    margin: 1rem;
+    color: rgb(37, 70, 44);
+    font-size: 150%;
+    background-color: rgba(188, 219, 209, 0.212);
+    border-radius: 10px;
+}
+.form1{
+    border-right: 1px solid rgba(227, 248, 220, 0.616);
+    margin: 1rem;
+    width: 90%;
+}
+span{
+    color: aliceblue;
+    border-bottom: 2px solid azure;
+}
+label{
+    padding-left: 1rem;
+}
+#submitbtn1 {
+    font-size: 110%;
+    width: 20%;
+    border-radius: 10px;
+    color: rgb(23, 58, 44);
+}
+#submitbtn2 {
+    font-size: 110%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgba(37, 58, 45, 0.774);
+    color: rgb(229, 252, 243);
+}

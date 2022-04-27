@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>|| MUKHERJEE ENTERPRISE ||</title>
+</head>
+
+<body>
+
+    <section class="main">
+        <!-- left part box -->
+        <div class="box1">
+            <section class="mainhead">
+                <h1>CUSTOMER SATISFACTION SURVEY</h1><br><br><br><br>
+            </section>
+            <section class="one">
+                <div class="head">
+                    <h3>Why take a SURVEY ?</h3><br>
+                </div>
+                <div class="content">Surveys allow a business to efficiently collect honest feedback, opinions and
+                    responses from customers and use that information to improve different areas of the business.</div>
+                <br>
+            </section>
+            <section class="two">
+                <div class="head">
+                    <h3>OBJECTIVE :</h3><br>
+                </div>
+                <div class="content">Our customer is our identity. It is our utmost importance to make sure that the
+                    product quality is maintained through out. Any valueable feedback from the users is welcomed. We
+                    always look forward to improve and provide as per the need of our cients, without compromising with
+                    quality.</div>
+            </section>
+        </div>
+
+        <!-- right part form  -->
+        <div class="box2">
+            <section class="personalinfo">
+                <div class="heading">
+                    <h2>how may we know YOU</h2><br><br>
+                </div>
+                <div class="form1">
+                    <form action="survey.html">
+                        <input type="text" id="username" placeholder="First Name" required>
+                        <input type="text" id="usersurname" placeholder="Last Name" required><br>
+                        <input type="number" id="mobnumber" placeholder="Enter mobile number" required><br>
+                        <input type="email" id="mail" placeholder="Enter your email" required><br>
+                        <!-- text area for address  -->
+                        <label for="address">Address : </label><br>
+                        <textarea id="address" cols="40" rows="3" placeholder="Type address here."
+                            required></textarea><br>
+                        <label for="setpassword">Password : </label><input type="password" id="setpassword"
+                            required><br>
+                        <label for="dob">Date of birth : </label><input type="date" id="dob" required><br>
+                        <!-- gender radio button  -->
+                        <p>Gender :
+                            <label for="male">Male</label><input type="radio" name="gender" id="male">
+                            <label for="female">Female</label><input type="radio" name="gender" id="female">
+                            <label for="other">Others</label><input type="radio" name="gender" id="other">
+                        </p><br>
+                        <!-- submit button  -->
+                        <input type="submit" value="PROCEED" id="submitbtn"><br><br>
+                        <!--To survey page-->
+                        <p id="spcl">Already registered ?&nbsp;<a id="login" href="login.html">Click here</a></p>
+                        <!--To login page-->
+
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="clearbox"></div>
+    </section>
+</body>
+
+</html>

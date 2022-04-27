@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|| Survey page ||</title>
+    <link rel="stylesheet" href="./CSS/survey.css">
+</head>
+<body>
+
+    <!-- main content  -->
+    <section class="container">
+        <!-- heading part  -->
+        <div class="heading">
+            <H1>Help us become&nbsp;<span>BETTER .</span></H1>
+        </div>
+        <!-- the survey form  -->
+        <div class="form1">
+            <form name="f1" action="thanku.html">
+
+                <!-- product choice checkbox  -->
+                <br><p>Select the Product of your delight :</p>
+            
+                <input type="checkbox" id="productchoice1" name="products1" value="Car wash">
+                <label for="productchoice1">Car wash</label><br>
+                <input type="checkbox" id="productchoice2" name="products2" value="Surface Cleaner">
+                <label for="productchoice2">Surface cleaner</label><br>
+                <input type="checkbox" id="productchoice3" name="products3" value="Air freshner">
+                <label for="productchoice3">Air freshner</label><br>
+                <input type="checkbox" id="productchoice4" name="products4" value="Disinfectant Spray">
+                <label for="productchoice4">Disinfectant Spray</label><br>
+                <input type="checkbox" id="productchoice5" name="products5" value="Glass Polish">
+                <label for="productchoice5">Glass Polish</label><br>
+                
+                <!-- radio button 1 -->
+                <br><p>How long have you been using our Products ?</p>
+
+                <input type="radio" name="year" id="a1"><label for="a1">Less than a Year.</label><br>
+                <input type="radio" name="year" id="a2"><label for="a2">Around two years.</label><br>
+                <input type="radio" name="year" id="a3"><label for="a3">Three years or more.</label><br>
+                <input type="radio" name="year" id="a4"><label for="a4">Three years or more.</label><br>
+
+                <!-- radio button 2 -->
+                <br><p>What was the overall product Experience according to you ?</p>
+
+                <input type="radio" name="experience" id="d1"><label for="d1">Excellent.</label><br>
+                <input type="radio" name="experience" id="d2"><label for="d2">Good.</label><br>
+                <input type="radio" name="experience" id="d3"><label for="d3">Satisfactory.</label><br>
+                <input type="radio" name="experience" id="d4"><label for="d4">Disappointing.</label><br>
+
+                <!-- radio button 3 -->
+                <br><p>Have you used similar products manufactured by other companies ?</p>
+
+                <input type="radio" name="otherbrand" id="b1"><label for="b1">Yes.</label><br>
+                <input type="radio" name="otherbrand" id="b2"><label for="b2">No.</label><br>
+
+                <!-- radio button 4 -->
+                <br><p>Are you satisfied with the pricing of the products ?</p>
+
+                <input type="radio" name="Prices" id="e1"><label for="e1">Yes Prices are justified.</label><br>
+                <input type="radio" name="Prices" id="e2"><label for="e2">No it is expensive.</label><br>             
+
+                <!-- radio button 5 -->
+                <br><p>How likely would you recommend this product to others ?</p>
+
+                <input type="radio" name="recommend" id="c1"><label for="c1">Very Likely.</label><br>
+                <input type="radio" name="recommend" id="c2"><label for="c2">Specific Products only.</label><br>
+                <input type="radio" name="recommend" id="c3"><label for="c3">Not Really.</label><br>
+
+                <!-- text area  -->
+                <br><p>Your Suggestion is important to Us.</p>
+
+                <label for="feedback"></label><br>
+                <textarea id="feedback" cols="45" rows="3">Leave your valueable feedback here.</textarea><br><br>
+
+                <!-- submit button  -->
+                <!-- onclick submit button  -->
+                <input type="submit" value="PREVIOUS" id="submitbtn1" onclick="f1.action='index.html';">
+                <input type="submit" value="SUBMIT" id="submitbtn2">
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>

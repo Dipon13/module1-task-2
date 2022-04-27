@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../IMG/thankubackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+a {
+    color: rgb(238, 247, 231);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(238, 247, 231);
+}
+.box{
+    color: azure;
+    width: 40%;
+    height: 40%;
+    border: 10px solid antiquewhite;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 110%;
+}
+.head{
+    text-align: center;
+    color: rgb(4, 31, 49);
+    width: 100%;
+    padding: 1rem;
+    margin-top: 8.5%;
+    font-size: 300%;
+    background-color: rgba(37, 57, 63, 0.281);
+}
+.head p{
+    font-family: 'Square Peg', cursive;
+    font-size: 112%;
+    color: antiquewhite;
+}
